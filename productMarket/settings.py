@@ -9,12 +9,9 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
-import environ
-
-# Initialize environment variables
-env = environ.Env()
-environ.Env.read_env()
-
+# import environ
+# import os
+# env = environ.Env()
 
 from pathlib import Path
 
@@ -26,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('DJANGO_SECRET_KEY')
+SECRET_KEY =  "django-insecure-9e$p3ed+q4(*kihlk5jhulbi=a+_2_4ylg=*(svnj*t3l9i+d$"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -188,3 +185,6 @@ SIMPLE_JWT = {
     "SLIDING_TOKEN_OBTAIN_SERIALIZER": "rest_framework_simplejwt.serializers.TokenObtainSlidingSerializer",
     "SLIDING_TOKEN_REFRESH_SERIALIZER": "rest_framework_simplejwt.serializers.TokenRefreshSlidingSerializer",
 }
+
+
+CORS_ALLOW_ALL_ORIGINS = True
