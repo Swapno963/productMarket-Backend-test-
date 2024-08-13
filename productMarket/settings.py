@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'product',
     'authientication',
     'rest_framework',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
