@@ -23,7 +23,7 @@ This project is a full-stack web e-commerce application built with React and Tai
 - **Register Product -url: auth/register/**
 - **Login Product -url: auth/login/**
 
-## Live server link : https://product-market-backend-test.vercel.app/
+## Live server link : https://productmarket-backend-test.onrender.com/
 
 ## Live site : https://e-commerce-test-two.vercel.app/
 

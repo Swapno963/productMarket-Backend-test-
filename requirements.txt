@@ -60,3 +60,5 @@ wagtail
 webencodings
 Willow
 gunicorn
+psycopg2-binary
+psycopg

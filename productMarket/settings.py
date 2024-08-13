@@ -69,12 +69,44 @@ WSGI_APPLICATION = 'productMarket.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# normal database
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
+# new database
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'product',
+#         'USER': 'product_z6rv_user',
+#         'PASSWORD': 'postgresql://product_z6rv_user:sbGOcYcK8yBEs0TjCt3kdgcaxRGq5TxI@dpg-cqtnparv2p9s73dkilb0-a.oregon-postgres.render.com/product_z6rv',
+#         'HOST': 'dpg-cqtnparv2p9s73dkilb0-a',  # Set to 'localhost' if running locally
+#         'PORT': '5432',  # Default is '5432'
+#     }
+# }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Password validation
