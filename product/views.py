@@ -16,4 +16,4 @@ class ProductViewset(viewsets.ModelViewSet):
     queryset = models.Product.objects.all().order_by('id')
     serializer_class = serializers.ProductSerializer
     filter_backends = [filters.SearchFilter]
-    # search_fields = ['name']
+    search_fields = ['name']
