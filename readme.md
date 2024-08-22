@@ -4,19 +4,19 @@
 
 This project is a full-stack web e-commerce application built with React and Tailwind CSS. It provides various features for managing products.
 
-- ** Get All Products -url: GET /products** : On the home page, users can view all products. On desktop, three products are displayed per row, while on mobile, only one product is displayed per row.
+- Get All Products -url: **GET /products** : On the home page, users can view all products. On desktop, three products are displayed per row, while on mobile, only one product is displayed per row.
 
-- **Add A New Product -url: POST /products**: Users can create a new product by clicking on "Create Product" in the navbar.
+- Add A New Product -url: **POST /products**: Users can create a new product by clicking on "Create Product" in the navbar.
 
-- **Update Product -url: PATCH /products** : Users can update a product by clicking on the three dots beside the product name and selecting "Edit."
+- Update Product -url: **PATCH /products** : Users can update a product by clicking on the three dots beside the product name and selecting "Edit."
 
-- **Delete Product -url: DELETE PRODUCTS url**: Users can delete a product by clicking on the three dots beside the product name and selecting "Delete."
+- Delete Product -url: **DELETE /products**: Users can delete a product by clicking on the three dots beside the product name and selecting "Delete."
 
-- **Detail Product -url: /products/id/** : By clicking on the product name, users can view the detailed description on the product detail page.
+- Detail Product -url: **/products/id/** : By clicking on the product name, users can view the detailed description on the product detail page.
 
-- **Pagenation Product -url: /products/?limit=1** : with ?limit user can ask how many product he wants
+- Pagenation Product -url: **/products/?limit=1** : with ?limit user can ask how many product he wants
 
-- **Pagenation Product -url: /products/?search=apple** : with ?search user can search on name of products.
+- Pagenation Product -url: **/products/?search=apple** : with ?search user can search on name of products.
 
 ### Authientication
 
@@ -57,3 +57,9 @@ Please use the following credentials:
 
 - **Username:** admin
 - **Password:** 12
+
+## Contact
+
+If you have any questions or feedback, feel free to contact me:
+
+- Swapno Mondol - [Linkedin](https://www.linkedin.com/in/swapno-mondol/)- [Facebook](https://www.facebook.com/profile.php?id=100090206887787) - swapno963@gmail.com
